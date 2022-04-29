@@ -20,14 +20,14 @@ $(document).ready(function(){
   });
 
   //스크롤시 헤더 변경
-  $(window).scroll(function(){
-    var scroll = $(window).scrollTop();
-    if(scroll > 100){
-      $("header").addClass("active");
-    }else{
-      $("header").removeClass("active");
-    }
-  });
+  //$(window).scroll(function(){
+  //  var scroll = $(window).scrollTop();
+  //  if(scroll > 100){
+  //    $("header").addClass("active");
+  //  }else{
+  //    $("header").removeClass("active");
+  //  }
+  //});
 
   //슬라이드 갯수
   $('.slick_slide').on('afterChange', function(event, slick, current){
@@ -152,7 +152,7 @@ $(document).ready(function(){
   // section04_슬라이드
   $(".right_item_wrap").slick({
     infinite: true,
-    autoplay : true,
+    autoplay : false,
     autoplaySpeed : 800,
     speed : 200,
     slidesToShow: 1,
@@ -165,7 +165,7 @@ $(document).ready(function(){
 					{  
 						breakpoint: 1280,
 						settings: {
-							slidesToShow:2, 
+							slidesToShow:1, 
 						} 
 					},
 				]
@@ -179,7 +179,7 @@ $(document).ready(function(){
   // 배너_슬라이드
   $(".banner").slick({
     infinite: true,
-    autoplay : true,
+    autoplay : false,
     autoplaySpeed : 800,
     speed : 200,
     slidesToShow: 1,
@@ -219,4 +219,5 @@ $(document).ready(function(){
     $(".mobile_header .mobile_nav_wrap .mobile_nav_bottom .nav_2_depth_wrap .nav_2_depth").removeClass("active");
     $(".mobile_header .mobile_nav_wrap .mobile_nav_bottom .nav_2_depth_wrap .nav_2_depth").eq(depth01).addClass("active");
   });
+  
 }); 
