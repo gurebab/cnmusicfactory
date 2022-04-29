@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./favicon.ico">
+
+    <script src="./resource/js/jquery-3.6.0.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/fullcalendar@5.10.0/main.min.js"></script>
+    <script src="./resource/js/slick.js"></script>
+    <script src="./resource/js/common.js"></script>
+
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="./resource/css/slick.css">
+    <link rel="stylesheet" href="./resource/css/content.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fullcalendar@5.10.0/main.min.css">
+
+    <title>충남음악창작소</title>
+</head>
+
+<body>
+    <header class="header">
+        <h1></h1>
+        <div class="nav">
+            <ul>
+                <li><a href="#">충남음악창작소</a>
+                    <div class="nav_2_depth">
+                        <div class="con">
+                            <ul>
+                                <li><a href="#"></a>
+                                    <ul>
+                                        <li><a href="#">충남음악창작소</a></li>
+                                        <li><a href="#">직원안내</a></li>
+                                        <li><a href="#">시설안내</a></li>
+                                        <li><a href="#">프로젝트</a></li>
+                                        <li><a href="#">CI소개</a></li>
+                                        <li><a href="#">오시는길</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#"></a>
+                                    <ul>
+                                        <li><a href="#">대관안내</a></li>
+                                        <li><a href="#">장비안내</a></li>
+                                        <li><a href="#">대관신청</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#"></a>
+                                    <ul>
+                                        <li><a href="#">월간일정</a></li>
+                                        <li><a href="#">제작지원 및 뮤지션</a></li>
+                                        <li><a href="#">공연 및 페스티벌</a></li>
+                                        <li><a href="#">교육/네트워크 및 지원</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#"></a>
+                                    <ul>
+                                        <li><a href="#">공지/공고</a></li>
+                                        <li><a href="#">언론/보도자료</a></li>
+                                        <li><a href="#">자료실</a></li>
+                                        <li><a href="#">Q&A</a></li>
+                                    </ul></li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li><a href="#">시설 · 대관</a></li>
+                <li><a href="#">프로그램</a></li>
+                <li><a href="#">커뮤니티</a></li>
+            </ul>
+        </div>
+        <ul class="util">
+            <li class="log_in">
+                <i class="ri-lock-line"></i>
+                <a href="#">로그인</a></li>
+            <li class="join">
+                <i class="ri-user-add-line"></i>
+                <a href="#">JOIN</a>
+            </li>
+            <li class="home">
+                <i class="ri-home-3-line"></i>
+                <a href="#">HOME</a>
+            </li>
+        </ul>
+        
+    </header>
+    <div class="mobile_header">
+        <h1 class="mobile_home"><a href="#"><img src="./resource/img/logo_top_color.png" alt="홈으로"></a></h1>
+        <div class="mobile_menu">
+            <span class="bar bar01"></span>
+            <span class="bar bar02"></span>
+            <span class="bar bar03"></span>
+        </div>
+        <div class="mobile_menu_bg">
+            <div class="mobile_nav_wrap">
+                <div class="mobile_nav_top">
+                    <div class="log_in">
+                        <i class="ri-login-circle-line"></i>
+                        <span>로그인이 필요합니다.</span>
+                    </div>
+                </div>
+                <div class="mobile_nav_bottom">
+                    <div class="nav_1_depth_wrap">
+                        <ul class="nav_1_depth">
+                            <li><a href="#">충남음악창작소</a>
+                            </li>
+                            <li><a href="#">시설 · 대관</a></li>
+                            <li><a href="#">프로그램</a></li>
+                            <li><a href="#">커뮤니티</a></li>
+                        </ul>
+                    </div>
+                    <div class="nav_2_depth_wrap">
+                        <ul class="nav_2_depth active">
+                            <li><a href="#">충남음악창작소</a></li>
+                            <li><a href="#">직원안내</a></li>
+                            <li><a href="#">시설안내</a></li>
+                            <li><a href="#">프로젝트</a></li>
+                            <li><a href="#">CI소개</a></li>
+                            <li><a href="#">오시는길</a></li>
+                        </ul>
+                        <ul class="nav_2_depth">
+                            <li><a href="#">대관안내</a></li>
+                            <li><a href="#">장비안내</a></li>
+                            <li><a href="#">대관신청</a></li>
+                        </ul>
+                        <ul class="nav_2_depth">
+                            <li><a href="#">월간일정</a></li>
+                            <li><a href="#">제작지원 및 뮤지션</a></li>
+                            <li><a href="#">공연 및 페스티벌</a></li>
+                            <li><a href="#">교육/네트워크 및 지원</a></li>
+                        </ul>
+                        <ul class="nav_2_depth">
+                            <li><a href="#">공지/공고</a></li>
+                            <li><a href="#">언론/보도자료</a></li>
+                            <li><a href="#">자료실</a></li>
+                            <li><a href="#">프로젝트</a></li>
+                            <li><a href="#">Q&A</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+    <div class="section section01">
+        <div class="wrap">
+            <div class="opacity"></div>
+        </div>
+    </div>
+    <div class="section section02">
+        <div class="wrap">
+            <div class="con">
+                <h2>알림판</h2>
+                <div class="notice_board">
+                    <div>
+                        <div class="left_box slick_slide">
+                            <div class="item item01" data-dot-title="베리어프리 융합공연"><img src="./resource/img/notice_slide_img.png" alt="슬라이드"></div>
+                            <div class="item item02"data-dot-title="음반제작지원 발굴뮤지션 쇼케이스"><img src="./resource/img/notice_slide_img.png" alt="슬라이드"></div>
+                            <div class="item item03"data-dot-title="아무가사 챌린지 쇼케이스"><img src="./resource/img/notice_slide_img.png" alt="슬라이드"></div>
+                            <div class="item item04"data-dot-title="충남음악창작소 작사가교육(2차)"><img src="./resource/img/notice_slide_img.png" alt="슬라이드"></div>
+                        </div>
+                        <div class="slide_btn_wrap">
+                                <button class="slide_btn btn_left"></button>
+                                <button class="btn_toggle">
+                                    <div class="section02_btn_pause slide_btn btn_pause"></div>
+                                    <div class="section02_btn_play slide_btn btn_play active"></div>
+                                </button>
+                                <button class="slide_btn btn_right"></button>
+                                <div class="num-box">
+                                    <span class="current-num"></span>
+                                    <span class="total-num"></span>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="direct_icon_wrap">
+                    <div class="direct_icon direct_icon01">
+                        <img src="./resource/img/icon_sec02_01.png" alt="#">
+                        <div class="text_box">
+                            <span class="title">장비안내</span>
+                            <span class="inner_text">장비안내</span>
+                        </div>
+                    </div>
+                    <div class="direct_icon direct_icon02">
+                        <img src="./resource/img/icon_sec02_02.png" alt="#">
+                        <div class="text_box">
+                            <span class="title">운영시간 안내</span>
+                            <span class="inner_text">AM 10:00~ PM05:30<br><p>매주 월요일 휴무</p></span>
+                        </div>
+                    </div>
+                    <div class="direct_icon direct_icon03">
+                        <img src="./resource/img/icon_sec02_03.png" alt="#">
+                        <div class="text_box">
+                            <span class="title">충남음악 창작소</span>
+                            <span class="inner_text">음악인들의<br>인재교육 도모</span>
+                        </div>
+                    </div>
+                    <div class="direct_icon direct_icon04">
+                        <img src="./resource/img/icon_sec02_04.png" alt="#">
+                        <div class="text_box">
+                            <span class="title">오시는 길</span>
+                            <span class="inner_text">천안시 동남구 은행길 15-1 천안두드림센터 B2F/2F</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section section03">
+        <div class="con">
+            <div class="yymm">
+                <span class="yy">2021</span>
+                <span class="mm">12</span>
+            </div>
+            <div id="calendar" class="calendar"></div>
+        </div>
+        <div class="detail_work">
+            <span>일정이 없습니다.</span>
+        </div>
+    </div>
+    <div class="section section04">
+        <div class="con">
+            <div class="left_item">
+                <ul class="tap">
+                    <li class="active"><a>공연일정</a></li>
+                    <li><a>교육일정</a></li>
+                </ul>
+                <div>
+                    <h2>공연일정</h2>
+                    <a href="#">
+                        <img src="./resource/img/icon_go.png" alt="공연일정 바로가기">
+                    </a>
+                </div>
+                <span>충남음악창작소의 공연 및 페스티벌 일정입니다.</span>
+                    <div class="slide_btn_wrap section04_slide_btn_wrap">
+                        <button class="section04_btn_left slide_btn btn_left"></button>
+                        <button class="section04_btn_right slide_btn btn_right"></button>
+                    </div>
+            </div>
+            <div class="right_item">
+                <div class="right_item_wrap">
+                    <div class="item item01">
+                        <div class="image_wrap">
+                            <img src="./resource/img/content_01.png" alt="2021충남음악창작소 베리어프리 융합공연">
+                            <div class="item_hover">
+                                <p>베리어프리 융합공연</p>
+                                <a href="#">일정 더보기</a>
+                            </div>
+                        </div>
+                        <div class="text-box">
+                            <p>베리어프리 융합공연</p>
+                            <p class="date">2021.11.19~2021.11.19</p>
+                        </div>
+                    </div>
+                    <div class="item item02">
+                        <div class="image_wrap">
+                            <img src="./resource/img/content_02.png" alt="2021충남음악창작소 베리어프리 융합공연">
+                            <div class="item_hover">
+                                <p>Connect U Music Festival</p>
+                                <a href="#">일정 더보기</a>
+                            </div>
+                        </div>
+                        <div class="text-box">
+                            <p>Connect U Music Festival</p>
+                            <p class="date">2021.11.19~2021.11.19</p>
+                        </div>
+                    </div>
+                    <div class="item item03">
+                        <div class="image_wrap">
+                            <img src="./resource/img/content_03.png" alt="2021충남음악창작소 베리어프리 융합공연">
+                            <div class="item_hover">
+                                <p>아무가사챌린지 쇼케이스</p>
+                                <a href="#">일정 더보기</a>
+                            </div>
+                        </div>
+                        <div class="text-box">
+                            <p>아무가사챌린지 쇼케이스</p>
+                            <p class="date">2021.11.19~2021.11.19</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section section05">
+        <div class="section05_bg"></div>
+        <div class="con section05_wrap">
+            <div class="notice_wrap section05_left">
+                <div class="section05_title">
+                    <h2>공지 / 공고</h2>
+                    <a href="#">
+                        <img src="./resource/img/icon_go.png" alt="공연일정 바로가기">
+                    </a>
+                </div>
+                <ul class="notice">
+                    <li class="new">
+                        <a href="#">사회적 거리두기에 따른 충남음악창작소 시설 운영 조정안내(02.07.기준)</a>
+                        <div class="info">
+                            <p class="date">2022.02.22</p>
+                            <p class="wrriter">음악창작소</p>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">충남음악창작소 시설운영 조정안내</a>
+                        <div class="info">
+                            <p class="date">2022.02.18</p>
+                            <p class="wrriter">음악창작소</p>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">[공고]충남음악창작소 지역 뮤지션 단독공연 개최지원 모집 공고</a>
+                        <div class="info">
+                            <p class="date">2022.02.22</p>
+                            <p class="wrriter">음악창작소</p>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">[공고] 충남음악창작소 교육프로그램 '작사가교육' 수강생 모집공고</a>
+                        <div class="info">
+                            <p class="date">2022.02.22</p>
+                            <p class="wrriter">음악창작소</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="notice_wrap section05_right">
+                <div class="section05_title">
+                    <h2>언론 / 보도자료</h2>
+                    <a href="#">
+                        <img src="./resource/img/icon_go.png" alt="공연일정 바로가기">
+                    </a>
+                </div>
+                <ul class="notice">
+                    <li class="new">
+                        <a href="#">충남정보문화산업진흥원 언택트오디션 '단테' 대상 충남 대표뮤지션 5팀 선정해 상금 등 1..</a>
+                        <div class="info">
+                            <p class="date">2022.02.22</p>
+                            <p class="wrriter">음악창작소</p>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">충남정보문화산업진흥원, 지원금 8000만 원 '아이엠 어 뮤지션' 음반제작 통합지원</a>
+                        <div class="info">
+                            <p class="date">2022.02.18</p>
+                            <p class="wrriter">음악창작소</p>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">충남음악창작소 발굴 지역 뮤지션 '바비핀스' 첫 외국 진출 성공적</a>
+                        <div class="info">
+                            <p class="date">2022.02.22</p>
+                            <p class="wrriter">음악창작소</p>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">충남음악창작소, 링크 업 뮤지션(Link Up Musician) 개최</a>
+                        <div class="info">
+                            <p class="date">2022.02.22</p>
+                            <p class="wrriter">음악창작소</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="section section06">
+        <div class="con">
+            <div class="alert">
+                <h3>배너모음</h3>
+                <div class="slide_btn_wrap section06_slide_btn_wrap">
+                    <button class="section06_btn_left slide_btn btn_left slick-arrow"></button>
+                    <div>
+                        <button class="section06_btn_pause slide_btn btn_pause slick-arrow"></button>
+                        <button class="section06_btn_play slide_btn btn_play slick-arrow"></button>
+                    </div>
+                    <button class="section06_btn_right slide_btn btn_right slick-arrow"></button>
+                </div>
+            </div>
+            <div class="banner">
+                <img src="./resource/img/banner_01.png" alt="충남콘텐츠코리아랩">
+                <img src="./resource/img/banner_02.png" alt="충남글로벌게임센터">
+                <img src="./resource/img/banner_03.png" alt="콘텐츠씨">
+                <img src="./resource/img/banner_04.png" alt="충남콘텐츠기업지원센터">
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer_top">
+            <div class="con">
+                <ul>
+                    <li class="terms"><a href="#">이용약관</a></li>
+                    <li><a href="#">개인정보처리방침</a></li>
+                    <li><a href="#">찾아오시는길</a></li>
+                    <li><a href="#">사이트맵</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer_bottom">
+            <div class="con">
+                <a href="#" class="footer_home">
+                    <img src="./resource/img/logo_top_white.png" alt="홈으로">
+                </a>
+                <div class="footer_text_wrap">
+                    <span class="adress">(31129) 충남 천안시 동남구 은행길 15, 천안두드림센터 B2F/2F<br>TEL 041-418-3390~3392 FAX : 041-590-0930</span>
+                    <span class="copy">COPYRIGHT(C) 2018 CHUNGNAM MUSIC FACTORY ALL RIGHT RESERVED.</span>
+                </div>
+                <ul class="sns">
+                    <li><a href="#"><img src="./resource/img/icon_instar.png" alt="인스타그램 바로가기"></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <div class="go_top"></div>
+</body>
+</html>
